@@ -2,7 +2,7 @@ import inquirer from 'inquirer'
 import chalk from 'chalk'
 import fs from 'fs'
 
-import { operation } from '../../operation'
+import { operation } from '../../operation/index.mjs'
 
 export const createAccount = () => {
   console.log(chalk.green.bold('Parabéns por escolher nosso banco '))
